@@ -1,4 +1,4 @@
-baseURL = 'https://armin-asrhafi.github.io/'
+baseURL = 'https://armin-ashrafi.github.io/'
 languageCode = 'en-us'
 title = "Armin's Blog"
 theme = 'HugoTex'
