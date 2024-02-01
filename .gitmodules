@@ -1,0 +1,3 @@
+[submodule "armin/hugo-PaperMod"]
+	path = armin/hugo-PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
