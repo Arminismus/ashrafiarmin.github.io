@@ -14,7 +14,7 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: Google
+      name: Google.com
+      url: https://google.com
       weight: 30
