@@ -5,9 +5,9 @@ draft = false
 +++
 
 
-### The transformer architecture opens up a new way of doing RL
+## The transformer architecture opens up a new way of doing RL
 
-Why would a reinforcement learning algorithm need to learn value functions? What is the purpose of us learning values? while the goal is to create a policy that takes the best actions?
+### Why would a reinforcement learning algorithm need to learn value functions? What is the purpose of us learning values? while the goal is to create a policy that takes the best actions?
 
 There are some arguments as to why this might be the case. firstly, it's a need to understand these models, instead of having black boxes, having the value function helps the engineer understand which states the agent likes, and which actions are liked for each state. This gives us the flexibility to interpret the actions and the learn about the enviornment, through the agent.
 
@@ -23,13 +23,13 @@ To look at RL from this lens, it means to show that any interaction the RL agent
 By learning the language of the enviornment, I mean to know how to make sense of the situation, and find the patterns of the enviornment, to correctly output the next token.
 
 
-How would such an agent be trained?
+### How would such an agent be trained?
 
 The most natural way to train such an agent is in an offline manner. This means that we need to get the full episodes of the task, and first, learn to predict the next token unconditionally, which would be akin to making predictions and finding value functions (but there are some differences), and on the other hand, we could simply, just like prompting chagpt or anyother agent, we could prompt the agent to maximize the reward from the enviornment, by taking actions that do so (This is my simplfied understanding of it). 
 This to me seems like a much more versatile way of handling the enviornment, since we can easily prompt the agent on sophisticated conditions (maybe even teach the agent natural language as well, and encode our wants and desires as natural language codes?). If we can combine this linguistic intelligence, with the ability to make good decisions, we have made big progress. 
 
 
-Are we getting rid of previous methods?
+### Are we getting rid of previous methods?
 
 Since sequence modeling does not require any type of dynamic programming, many methods from the theory of Reinforcement learning seem to be useless. 
 But don't forget that without having done the work on these models, we could not have discovered the instability issues of deep reinforcement learning, which has a lot of sensitiy on hyperparameters, making it very difficult to predict and make them consistently, and use them in everyday life, which from a practical sense, would be the ultimate goal of such research. 
@@ -63,7 +63,7 @@ This complicates the picture significantly. To put it into perspective, this mea
 
 Advances in Sequence modeling, especially in context-length related areas, can be a promising part of future RL research using sequence models. This also requires more advances in parts like sim2real, data2real, and such parts, to show veritable and deployable models which are used now, in the market, and create a real difference, by creating positive economic, quality of life, and ... impacts on human life. 
 
-How to respond to RL hype/anti-hype trains?
+### How to respond to RL hype/anti-hype trains?
 
 One thing to consider as a researcher in modern times, are hype/anti-hype waves that strike a particular area, and the fact that each can create damaging distortions to the perception of the researcher, the consumer market, and the investing campaigns. 
 
@@ -78,9 +78,7 @@ Why are some people more likely to believe the hype/anti-hype train?
 
 Shock, fear, and other forms of extreme emotion are just more paid attention to than other more neutral forms of media. This means that content that is more shocking, scary or... will propagate faster and more widely, which makes it seem that its more important, and since many more instances of it are shown, it even seems to be more truthful. 
 
-
 This is not always the case. the fact of the matter is that we can know that emotionalizing such issues is not always helpful (other than good propagation properties on social media), and we can have a semi-good heuristic (or at least a mental alarm) that, if its sensational, it should be investigated more profoundly, and conclusions from it need to go through more scrutiny. 
-
 
 This scrutiny could be simple reflection, or speaking with other experts, simulations and experiments, and all in all good scientific practice. In fact, it could argues that such events are opportunities for the researcher to sharpen their scientific swords and practice using the most reliable scientific methods and spread them more in their network of colleagues and interested friends. 
 
