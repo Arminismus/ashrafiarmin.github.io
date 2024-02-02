@@ -6,9 +6,9 @@ sectionPagesMenue: 'main'
 
 menu:
   main:
-    - identifier: Categories
-      name: categories
-      url: /categories/
+    - identifier: Curriculum Vitae
+      name: CV
+      url: /cv/
       weight: 10
     - identifier: Tags
       name: tags
