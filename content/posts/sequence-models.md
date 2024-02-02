@@ -15,7 +15,7 @@ But What about sequence modeling? Isn't that just a better way of doing RL? the 
 This has made them a promising avenue of research for many other tasks which are amenable to a sequence model, of which Reinforcement learning definitely is. 
 
 
-What does it mean to model RL as a sequence model?
+### What does it mean to model RL as a sequence model?
 
 A sequence model is a just an alphabet and a langauge (in the chomskian sense) and inputting a sequence from the language, and expecting the model to output a next token (a member of the alphabet) which is in the language and which in some semantic sense (could be linguistic or otherwise), has meaning to be there. 
 
