@@ -8,7 +8,7 @@ menu:
   main:
     - identifier: Curriculum Vitae
       name: CV
-      url: /documents/cv.pdf/
+      url: /documents/cv.pdf
       weight: 10
     - identifier: Tags
       name: tags
