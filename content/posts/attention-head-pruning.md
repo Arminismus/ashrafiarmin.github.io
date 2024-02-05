@@ -8,5 +8,5 @@ The article [Are Sixteen heads really better than one?](https://proceedings.neur
 
 ### Why would that matter?
 
-Here is how we would write a transformer in 
+One of the innovations of [The Transformer](https://arxiv.org/abs/1706.03762), was **Multi-Head Attention**.
 

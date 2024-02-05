@@ -10,11 +10,11 @@ menu:
       name: CV
       url: /documents/cv.pdf
       weight: 10
-    - identifier: Tags
-      name: tags
-      url: /tags/
+    - identifier: Machine Learning Mastery
+      name: Machine Learning
+      url: https://machinelearningmastery.com/blog/
       weight: 20
-    - identifier: Google
-      name: Google.com
-      url: https://google.com
+    - identifier: HuggingFace
+      name: HuggingFace
+      url: https://huggingface.co
       weight: 30
