@@ -8,3 +8,5 @@ The article [Are Sixteen heads really better than one?](https://proceedings.neur
 
 ### Why would that matter?
 
+Here is how we would write a transformer in 
+
