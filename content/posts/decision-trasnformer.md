@@ -14,7 +14,7 @@ Although, it has been shown [that the transformer architecture is not the pure r
 ![Image](/img/mario.png)
 
 
-### Why sequence models?
+## Why sequence models?
 Using sequence modeling means treating each RL trajectory just like text, and then using the sequence prediction capabilities of sequence models like the transformer to predict the next token in the sequence(i.e. what is most likely going to happen, or what should happen).
 
 There are some advantages to this method of learning the environment: 
@@ -28,10 +28,12 @@ There are some advantages to this method of learning the environment:
 
 The interesting thing about this process is that we can simple introduce a prior to the model's probability output([using bayes' theorem](https://www.statlect.com/glossary/prior-probability)), and this will give us the shortest path!
 
-### How does the network work?
-Let's take a look at how the architecture works: The transformer architecture is an autoregressive architecture, meaning previous outputs are used as new inputs to the network. Let's take a look at the Decision Transformer's input: 
 
-![Image](/img/DT.jpg)
+## How does the network work?
+Instead of using the transformer architecture directly, which gets the input sequence directly(the main task in the original paper was sequence to sequence translation), the authors of the decision transformer paper use the [GPT(Generative Pre-Training)](https://paperswithcode.com/paper/improving-language-understanding-by) architecture, which masks parts of the input not currently generated, to give a chance to the network to indpendently generate the sequence.
+
+![Image](/img/GPT.png)
+
 
 
 
