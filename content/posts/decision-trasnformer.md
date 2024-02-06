@@ -2,11 +2,6 @@
 title = 'The Decision Transformer'
 date = 2024-02-05T19:06:41+08:00
 draft = false
-
-[image]
-   src = "DT.jpg" 
-   title = "image"
-
 +++
 
 
@@ -14,7 +9,7 @@ draft = false
 # What are Decision Transformers?
 [Decision Transformers](https://arxiv.org/abs/2106.01345) are a type of [transformer neural network achitecture](https://jalammar.github.io/illustrated-transformer/) suited for the offline reinforcement learning setting.
 
-Although, it has been shown [that the transformer architecture is not the pure reason Sequence Modeling can excel reinforcement learning tasks](https://arxiv.org/abs/2211.14655), and that [online learning can still be a challenge worth inversitgating](https://sled.eecs.umich.edu/media/eecs595_fa22/11_Nguyen_Glasscock.pdf), it is still an important building block to consider why and how sequence models can achieve state of the art performance in famous RL tasks, and perhaps even play games.
+Although, it has been shown [that the transformer architecture is not the pure reason Sequence Modeling can excel reinforcement learning tasks](https://arxiv.org/abs/2211.14655), and that [online learning can still be a challenge worth inversitgating](https://sled.eecs.umich.edu/media/eecs595_fa22/11_Nguyen_Glasscock.pdf), it is still an important building block to consider why and how sequence models can achieve state of the art performance in famous RL tasks, and perhaps even play games!
 
 ![Image](/mario.png)
 
