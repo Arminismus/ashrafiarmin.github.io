@@ -11,7 +11,7 @@ draft = false
 
 Although, it has been shown [that the transformer architecture is not the pure reason Sequence Modeling can excel reinforcement learning tasks](https://arxiv.org/abs/2211.14655), and that [online learning can still be a challenge worth inversitgating](https://sled.eecs.umich.edu/media/eecs595_fa22/11_Nguyen_Glasscock.pdf), it is still an important building block to consider why and how sequence models can achieve state of the art performance in famous RL tasks, and perhaps even play games!
 
-![Image](/mario.png)
+![Image](/img/mario.png)
 
 
 ### Why sequence models?
@@ -31,7 +31,7 @@ The interesting thing about this process is that we can simple introduce a prior
 ### How does the network work?
 Let's take a look at how the architecture works: The transformer architecture is an autoregressive architecture, meaning previous outputs are used as new inputs to the network. Let's take a look at the Decision Transformer's input: 
 
-![Image](/DT.png)
+![Image](/img/DT.jpg)
 
 
 
