@@ -30,9 +30,17 @@ The interesting thing about this process is that we can simple introduce a prior
 
 
 ## How does the network work?
-Instead of using the transformer architecture directly, which gets the input sequence directly(the main task in the original paper was sequence to sequence translation), the authors of the decision transformer paper use the [GPT(Generative Pre-Training)](https://paperswithcode.com/paper/improving-language-understanding-by) architecture, which masks parts of the input not currently generated, to give a chance to the network to indpendently generate the sequence.
+Instead of using the transformer architecture, which gets the input sequence directly(the main task in the original paper was sequence to sequence translation), the authors of the decision transformer paper use the [GPT(Generative Pre-Training)](https://paperswithcode.com/paper/improving-language-understanding-by) architecture, which masks parts of the input not currently generated, to give a chance to the network to indpendently generate the sequence.
 
 ![Image](/img/GPT.png)
+
+
+## What Trajectories are given to the network?
+One important aspect to consider, is the fact that we want to *Maximize future rewards*. A reinforcement learning agent, unlike a langauge model, needs to generate trajectories based on future outcomes(Expected Return), instead of previously generated tokes(Past Reward). Hence, as input to the network we cannot simply give it the rewards received until now, but a sort of "oracle reward signal", called the return to go, meaning **the remaining return until the end of the episode**.
+
+This, in this case, immediately means that we cannot learn online, since we do not have access to the return-to-go in the online setting, and that trajectories must have been compeleted before training can begin.
+
+
 
 
 
